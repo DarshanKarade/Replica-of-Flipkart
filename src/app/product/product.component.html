@@ -1,0 +1,17 @@
+<div class="div1" *ngFor="let item of serv1.products">
+    
+        <img src="{{item.image}}" height="150px" width="150px" alt="Api Image" class="img">
+    
+        <div><p class="title">{{item.title}}</p></div>
+    
+        
+        <p class="desc">{{item.description}}</p>
+        
+        <div id="two">
+            
+            <p class="price">Price:{{item.price | currency: 'USD'}}</p>
+            
+            <button class="btn" (click)="serv1.add(item)">Add to cart</button> <br>
+         
+        </div>
+</div>

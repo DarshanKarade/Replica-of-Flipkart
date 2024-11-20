@@ -1,0 +1,66 @@
+.div1
+{
+    width: 100%;
+    height: 450px;
+    border-bottom: double 5px;
+    background-image: linear-gradient(#ecf39e, #2a9d8f);
+    margin-top: 1px;
+}
+
+.title
+{   
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    width: 600px;
+}
+
+.title:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.desc
+{
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+    bottom: 50px;
+}
+
+
+
+#two
+{
+    position: absolute;
+    right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.img
+{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.btn
+{
+    background-color: red;
+
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+.price
+{
+    background-color: #0077b6;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
