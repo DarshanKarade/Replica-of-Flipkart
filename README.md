@@ -5,7 +5,6 @@ View Products:
   Users can browse and view products fetched through an API.
 
 Cart Functionality:
-  Add products to the cart.
-  Remove products from the cart.
+  Add products to the cart, Remove products from the cart.
 
 This project focuses on basic e-commerce functionalities and serves as a good showcase of my Angular development skills.
